@@ -7,6 +7,6 @@ cw_puma2010_czone.dta, cw_puma2000_czone.dta, cw_puma1990_czone.dta, cw_ctygrp19
 workfile5015.dta available from David Autor https://www.openicpsr.org/openicpsr/project/116495/version/V1/view
 
 Permits for every thousand residents analysis
-CAPOP.csv [FRED] https://fred.stlouisfed.org/series/CAPOP
-permits.csv [U.S. Census Bureau] https://www.census.gov/construction/bps/visualizations/datatool/index.html
-resident_population_usafacts.csv [USAFacts] https://usafacts.org/data/topics/people-society/population-and-demographics/population-data/population/
+CAPOP.csv obtained via FRED and soruced from the U.S. Census Bureau https://fred.stlouisfed.org/series/CAPOP
+permits.csv obtained via the U.S. Census Bureau https://www.census.gov/construction/bps/visualizations/datatool/index.html
+resident_population_usafacts.csv obtained via USAFacts https://usafacts.org/data/topics/people-society/population-and-demographics/population-data/population/
