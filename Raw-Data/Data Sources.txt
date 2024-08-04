@@ -1,0 +1,12 @@
+Homeownership analysis
+Data from IPUMS-USA available through the IPUMS API. Access to IPUMS-USA requires creating an account and agreeing to their user agreement. They also place restrictions on publicly disseminating their data; therefore, replication of this analysis requires accessing data either through the IPUMS API (the method implemented in my scripts) or directly through the IPUMS-USA extract system. If the latter method is used, the user can ignore certain sections in 01_wrangling.do and edit the script to directly access their own IPUMS-USA extract.
+
+Commuting zone analysis
+cw_puma2010_czone.dta, cw_puma2000_czone.dta, cw_puma1990_czone.dta, cw_ctygrp1980_czone_corr.dta, cw_ctygrp1970_czone_corr.dta available from David Dorn https://www.ddorn.net/data.htm#Local%20Labor%20Market%20Geography
+
+workfile5015.dta available from David Autor https://www.openicpsr.org/openicpsr/project/116495/version/V1/view
+
+Permits for every thousand residents analysis
+CAPOP.csv [FRED] https://fred.stlouisfed.org/series/CAPOP
+permits.csv [U.S. Census Bureau] https://www.census.gov/construction/bps/visualizations/datatool/index.html
+resident_population_usafacts.csv [USAFacts] https://usafacts.org/data/topics/people-society/population-and-demographics/population-data/population/
