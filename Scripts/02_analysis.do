@@ -36,7 +36,7 @@ collapse (mean) headship1 headship2 headship3 [pw = perwt], by(year agegroup)
 
 // Save estimates
 cd "$directory\output"
-save figure1_headshiprate.dta, replace
+save headshiprate.dta, replace
 
 // Visualization: headship rates (Figure 1)
 ** graph notes
@@ -72,7 +72,7 @@ graph export headshiprate_byagegroup.png, replace
 // Extended results: Alternative measure of headship (spouse or spouse/partner)
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 cd "$directory\output"
-use figure1_headshiprate.dta, clear
+use headshiprate.dta, clear
 
 ** graph notes
 linewrap, maxlength(150) name("notes") stack longstring("Visualization shows the trends in the share of the population of each age group represented by head(s) of households, which consists of the head of the householder (reference person) and any spouse OR the reference person and any spouse/partner, depending on the measure. Partners cannot be separately counted from roommates or friends prior to 1990.")
