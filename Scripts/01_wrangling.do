@@ -32,7 +32,7 @@
    executes every time Stata starts. Instructions to implement the latter are 
    available here: 
    https://www.stata.com/support/faqs/programming/profile-do-file/. */
-cd "$directory\derived-data"
+cd "$directory\raw-data"
 python
 import gzip
 import shutil
