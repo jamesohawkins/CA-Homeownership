@@ -3,3 +3,4 @@ Raw-Data/cw*.dta
 Derived-Data/*
 Documents/*
 Omitted/*
+Scripts/profile.do
