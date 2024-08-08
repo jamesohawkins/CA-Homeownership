@@ -1,5 +1,5 @@
 # CA-Homeownership
-This repository contains instructions, raw data, and Stata scripts for replicating the results from the analysis of California homeownership data contained in the [accompanying issue brief](LINK). This repository also includes all output and accompanying estimates.
+This repository contains instructions, raw data, and Stata scripts for replicating the results from the analysis of California homeownership data contained in the [accompanying issue brief](https://youngamericans.berkeley.edu/2024/08/young-adults-and-the-decline-of-homeownership-in-california/). This repository also includes all output and accompanying estimates.
 
 ## Repository Structure
 
